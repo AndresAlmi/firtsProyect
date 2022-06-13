@@ -1,0 +1,53 @@
+.container{
+    width: 100%;
+    height: 77vh;
+}
+.wave{
+    width: 6000px;
+    height: 97%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #adadad98;
+    background-image: url(../img/wave.svg);
+    background-position: bottom;
+}
+.auto{
+    padding-top: 250px;
+}
+.w1{
+    animation: w1 9s linear infinite;
+}
+
+.w2{
+    animation: w2 8.9s linear -.1215s infinite, desplazamiento 10s ease -.255s infinite;
+    opacity: 0.2;
+}
+@keyframes w1 {
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: -1600px;
+    }
+}
+
+@keyframes w2 {
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: -1600px;
+    }
+}
+
+@keyframes desplazamiento {
+    0%, 100%{
+        transform: translateY(-25px);
+    }
+
+    50%{
+        transform: translateY(10px);
+    }
+}

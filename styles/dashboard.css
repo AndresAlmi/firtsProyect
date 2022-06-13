@@ -1,0 +1,84 @@
+.contenedor{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+.dashboard{
+    width: 90%;
+    height: 1000px;
+    border:1px solid black;
+    margin: auto;
+    background: #8c9ca331;
+}
+.dashboard .statTurnos,.statAcces,.statStock,.general{
+    margin-top: 50px;
+    text-align: center;
+    display:inline-block;
+    background: whitesmoke;
+    min-height:350px;
+    width: 27.5%;
+    margin-left: 4%;
+    border: 0.5px solid black;
+}
+
+.statServicios{
+    margin-top: 50px;
+    text-align: center;
+    display:inline-block;
+    background: whitesmoke;
+    min-height:350px;
+    width: 40%;
+    margin-left: 4%;
+    border: 0.5px solid black;
+}
+.statNoticias{
+    float: right;
+    margin-top: 50px;
+    text-align: center;
+    background: whitesmoke;
+    min-height:350px;
+    width: 40%;
+    margin-right: 4%;
+    border: 0.5px solid black;
+}
+.dashboard .statTurnosTaller{
+    width: 40%;
+    background: grey;
+    margin-left: 3.8%;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+
+.dashboard .general .usuarios,.clientes,.empleados,.vehiculos,.frecuente{
+    color:white;
+    min-height:350px;
+    width: 50.5%;
+}
+
+.dashboard .statTurnos:hover,.statAcces:hover,.statStock:hover,.statTurnosTaller:hover{
+    background: #a6bec946;
+    box-shadow: 2px 2px 5px black;
+    border: 2px solid black;
+}
+
+.statTurnosTaller div.table{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding : 50px 0px;
+    background: #c9c9c9;
+}
+.statTurnosTaller div.table table{
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+.statTurnosTaller div.table table thead th, tbody td{
+    border: 2px solid black;
+}
+.dashboard .bienvenida{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}

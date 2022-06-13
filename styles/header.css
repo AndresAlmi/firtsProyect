@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+header.horizontal{
+    background: linear-gradient(-90deg,#7d9fad, #242727);
+    color:white;
+    text-transform: uppercase;
+    height: 70px;
+    width: 100%;
+
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+header.horizontal ul{
+    list-style-type:none;
+    padding: 5px;
+    overflow: auto;
+}
+header.horizontal ul li{
+    float: left;
+    margin-top: 5px;
+}
+header.horizontal ul li h1{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+header.horizontal ul li.logoInicio{
+    float: left;
+    margin-top: -3px;
+    margin-left: 5px;
+}
+
+header.horizontal ul li.perfil{
+    float: right;
+    width: 45px;
+    margin-right: 20px;
+}
+
+header.horizontal ul li a{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+header.horizontal ul li a:hover{
+    background-color:#425255;
+    color: white;
+    transition: 0.5s;
+    text-shadow: 1px 1px 2px #7f9ba7;
+}
+
+header.horizontal div.dropdown-content{
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+header.horizontal div.dropdown-content ul li{
+    float: none;
+    margin-top: 0;
+}
+header.horizontal div.dropdown-content ul li a{
+    display: block;
+}
+header.horizontal li.perfil:hover div.dropdown-content{
+    background-color: white;
+    margin-top: -10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: block;
+}
+
+header.horizontal ul li.cerrarSesion a{
+    background-color: white;
+}
+
+header.horizontal ul li.cerrarSesion a:hover{
+    margin:auto;
+    background-color: rgba(250, 0, 0, 0.4);
+}
+
+.back{
+    position:fixed;
+    width: 45px;
+    height: 45px;
+}
+.back a img{
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+}

@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    min-height: 100vh;
+    background-image: url("../img/fondo.jpg");
+    opacity: 1;
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+body::before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    background: linear-gradient(-45deg, #7d9fad, #151616 );
+    opacity:0.9;
+}
+
+
+.logo{
+    width: 450px;
+    background: linear-gradient(360deg, #7d9fad, #151616 );
+    opacity: 1;
+    margin: auto;
+    padding-top: 90px;
+    position: relative;
+    z-index: 1;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border : 2px solid black;
+    border-bottom: none;
+}
+
+.logo img{
+    padding-left: 100px;
+    z-index : 1;
+}
+.contenedorForm{
+    width: 450px;
+    background: linear-gradient(#7d9fad, #151616 );
+    opacity: 1;
+    margin:auto;
+    padding-top: 25px;
+    position: relative;
+    height: 250px;
+    z-index: 1;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border : 2px solid black;
+    border-top: none;
+}
+
+
+.formulario {
+    width: 350px;
+    background: linear-gradient(#c2dde985, #a7b9c0b7);
+    opacity: 1;
+    box-shadow: 2px 2px 12px black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    color : white;
+    position: relative;
+    z-index: 1;
+}
+
+.formulario fieldset form{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.formulario fieldset input{
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.formulario button{
+    width: 100%;
+    border : none;
+    padding: 5px;
+    margin-top: 10px;
+    margin: 15px, 0;
+}
+
+.formulario legend, label{
+    text-align: center;
+    font-size: 20px;
+    color:black;
+    text-shadow: 2px 2px 2px white;
+    background: #a6c5d360;
+}

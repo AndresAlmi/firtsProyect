@@ -1,0 +1,171 @@
+
+.contenedorTabla{
+    background-color: #8c9ca331;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    min-height: 600px;
+    height: 160%;
+    margin: 0 auto;
+    max-width: 90%;
+    border-bottom: 1px solid black;
+}
+.contenedorTabla h1 a{
+    text-decoration: none;
+    font-size: 20px;
+    background: linear-gradient(-90deg,#849faa, #7f8d8d);
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    padding-right: 25px;
+    border-bottom: 1px solid black;
+}
+
+.contenedorTabla h1 a:hover{
+    padding-right: 10px;
+    text-shadow: 2px 2px 400px #fff;
+    box-shadow: 2px 2px 3px black;
+}
+
+.contenedorTablaConsulta{
+    background-color: #8c9ca331;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    min-height: 500px;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 90%;
+}
+.contenedorTablaConsulta h1 a{
+    text-decoration: none;
+    font-size: 20px;
+    background: linear-gradient(-90deg,#849faa, #7f8d8d);
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    padding-right: 25px;
+    border-bottom: 1px solid black;
+    
+}
+
+.contenedorTablaConsulta h1 a:hover{
+    padding-right: 10px;
+    text-shadow: 2px 2px 400px #fff;
+    box-shadow: 2px 2px 3px black;
+}
+
+.contenedorTablaConsulta form{
+    margin-top: 10px;
+    text-align: center;
+    background: linear-gradient(-90deg,#849faa, #7f8d8d);
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    border: 1px solid black;
+    padding-bottom: 15px;
+}
+
+.contenedorTablaConsulta form .left{
+    float: left;
+    margin-top: 10px;
+    margin-left: 35%;
+}
+.contenedorTablaConsulta form .right{
+    float: right;
+    margin-top: 10px;
+    margin-right: 34%;
+}
+.contenedorTablaConsulta form .center{
+    margin-top: 10px;
+    margin:auto;
+
+}
+.contenedorTablaConsulta form button{
+    margin-top: 20px;
+    margin:auto;
+}
+.contenedorTablaConsulta form legend, label{
+    font-size: 20px;
+}
+
+.agregarNuevo{
+    background: linear-gradient(-90deg,#849faa, #7f8d8d);
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    padding-right: 25px;
+    border-bottom: 1px solid black;
+
+}
+
+.agregarNuevo:hover{
+    padding-right: 10px;
+    text-shadow: 2px 2px 400px #fff;
+    box-shadow: 2px 2px 3px black;
+}
+table{
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 95%;
+    
+}
+
+thead th{
+    text-align: center;
+    background: #657f8a;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+}
+thead th:hover{
+    text-align: center;
+    background: #445157;
+    text-shadow: 2px 2px 20px black;
+}
+
+tbody td{
+    text-align: center;
+}
+
+thead th, tbody td{
+    border: solid 1px black;
+    padding: 10px;
+}
+
+tbody .tr:hover{
+    background-color: #ecedee
+}
+td a{
+    color: rgb(13, 41, 63);
+    text-decoration: none;
+    padding: 5px, 12px;
+    border-radius: 2px;
+}
+td a:hover{
+    background-color: #425255 ;
+    transition: 0.3s;
+}
+td a.btnImg:hover{
+    padding-top: 25px;
+    transition: 0.3s;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(-90deg,#849faa, #7f8d8d);
+    text-shadow: 2px 2px 5px black;
+
+    border-bottom: 1px solid black;
+}
+
